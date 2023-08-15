@@ -1,0 +1,82 @@
+.section1 {
+    justify-content: center;
+    text-align: center;
+
+}
+
+.section2 h1 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section3 {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    line-height: 1.75;
+    margin-bottom: 2%;
+}
+
+
+.section4 {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    line-height: 1.75;
+    margin-bottom: 5%;
+}
+
+.Vision {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 45%;
+    color: #ff8900;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.Vision p {
+    font-size: 36px;
+}
+
+.Mission p {
+    font-size: 36px;
+}
+
+.Mission {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30%;
+    color: #ff8900;
+}
+
+.vision {
+    display: flex;
+    margin-top: 15%;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.75;
+    color: rgb(92, 89, 89);
+
+}
+
+.mission {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.75;
+    color: rgb(92, 89, 89);
+
+}

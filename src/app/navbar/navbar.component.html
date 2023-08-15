@@ -1,0 +1,52 @@
+<header> 
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 col-sm-2 col-2">
+        <div class="logo">
+          <img src="/assets/logo.png" alt="flower" width= "155px" height="78.99px" float="left"  >
+        </div>
+      </div>
+      <div class="col-md-10 col-sm-10 col-10">
+        <div class="menu_icon" [class.menu_iconClass]="menu_icon_variable" (click)="openMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      
+
+        <div class="menu "[class.menuClasse]="menuVariable">
+          <ul>
+            <li>
+                <button mat-button><a href="#" class="nav-link active" routerLink="/">Home</a></button>
+            </li>
+            <li>
+            <button mat-button [matMenuTriggerFor]="belowMenu">Company</button>
+            <mat-menu #belowMenu="matMenu" yPosition="below" class="navbar">
+              <button mat-menu-item><a href="#" class="nav-link active" routerLink="/about/">About Us</a></button>
+              <button mat-menu-item><a href="#" class="nav-link active" routerLink="/vision/">Vision & Mission</a></button>
+              <button mat-menu-item><a href="#" class="nav-link active" routerLink="/">Team</a></button>
+              <button mat-menu-item><a href="#" class="nav-link active" routerLink="/gallery/"> Glocal View Gallery</a></button>
+              <button mat-menu-item><a href="#" class="nav-link active" routerLink="/">Portfolio</a></button>
+            </mat-menu>
+          </li>
+          <li>
+            <button mat-button [matMenuTriggerFor]="beforeMenu">Services</button>
+            <mat-menu #beforeMenu="matMenu" xPosition="before" class="navbar">
+              <button mat-menu-item><a href="#" class="nav-link active" routerLink="/">IT Consultancy services</a></button>
+              <button mat-menu-item><a href="#" class="nav-link active" routerLink="/">Oil and Gas Engineer</a></button>
+              <button mat-menu-item><a href="#" class="nav-link active" routerLink="/">Custom Software Development</a></button>
+              <button mat-menu-item><a href="#" class="nav-link active" routerLink="/">Animation Studio</a></button>
+              <button mat-menu-item><a href="#" class="nav-link active" routerLink="/">My Glocal Team</a></button>
+            </mat-menu>
+          </li>
+          <li> <button mat-button><a href="#" class="nav-link active" routerLink="/">Startup & Investemnt</a></button></li>
+          <li><button mat-button><a href="#" class="nav-link active" routerLink="/">My Glocal Hub</a></button></li>  
+          <li> <button mat-button><a href="#" class="nav-link active" routerLink="/">Careers</a></button></li>
+          <li><button mat-button><a href="#" class="nav-link active" routerLink="/">Contact Us</a></button></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+</header>
+

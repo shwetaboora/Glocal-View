@@ -1,0 +1,63 @@
+<!-- <ngb-carousel>
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img src="https://cdn-jdbdl.nitrocdn.com/MerefFUEskywmXVJmYTOzmNFSRVWUevx/assets/images/optimized/rev-e547fa9/glocalview.com/wp-content/uploads/2022/07/ar-1.jpg"  alt="1st image">
+            <a class="image-button">Explore More</a>
+            <a class="image-button1">Contact Us</a>
+        </div>
+        <div class="carousel-caption">
+            <h1>Imagination to Reality with Best Augmented Reality Service Company</h1>
+            <h2>We are a leading service provider of Animation | Game Development ( Mobile | Web | PC | VR Game )</h2>
+        </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img src="https://cdn-jdbdl.nitrocdn.com/MerefFUEskywmXVJmYTOzmNFSRVWUevx/assets/images/optimized/rev-e547fa9/glocalview.com/wp-content/uploads/2022/07/slider1.webp"
+                    alt="2nd image">
+            <a class="image-button">Explore More</a>
+            <a class="image-button1">Contact Us</a>
+        </div>
+        <div class="carousel-caption">
+            <h1>Empower Your Business with Best Mobile | Web App Development</h1>
+            <h2>We are a leading service provider of IT consulting, Mobile app development | Custom App Development</h2>
+        </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img src="https://cdn-jdbdl.nitrocdn.com/MerefFUEskywmXVJmYTOzmNFSRVWUevx/assets/images/optimized/rev-e547fa9/glocalview.com/wp-content/uploads/2022/07/Banner-1.jpg"
+                    alt="3rd image">
+            <a class="image-button">Explore More</a>
+            <a class="image-button1">Contact Us</a>
+        </div>
+        <div class="carousel-caption">
+            <h1>Get Innovative Workforces Solutions with Best IT consulting Company</h1>
+            <h2>We are a leading service provider of IT consultant Resource Management to organizations</h2>
+        </div>
+    </ng-template>
+</ngb-carousel> -->
+
+<c-carousel>
+    <c-carousel-indicators></c-carousel-indicators>
+    <c-carousel-inner>
+      <c-carousel-item *ngFor="let slide of slides">
+        <img
+          alt="{{slide.title}}"
+          class="d-block w-100"
+          loading="lazy"
+          src="{{slide.src}}"
+        />
+        <c-carousel-caption class="d-none d-md-block">
+          <h1>{{slide.title}}</h1>
+          <h2>{{slide.subtitle}}</h2>
+        </c-carousel-caption>
+        <a class="image-button">Explore More</a>
+        <a class="image-button1">Contact Us</a>
+      </c-carousel-item>
+    </c-carousel-inner>
+    <c-carousel-control [routerLink] caption="Previous" direction="prev"></c-carousel-control>
+    <c-carousel-control [routerLink] caption="Next" direction="next"></c-carousel-control>
+  </c-carousel>
+  
+<!-- src="https://cdn-jdbdl.nitrocdn.com/MerefFUEskywmXVJmYTOzmNFSRVWUevx/assets/images/optimized/rev-e547fa9/glocalview.com/wp-content/uploads/2022/07/ar-1.jpg"
+src="https://cdn-jdbdl.nitrocdn.com/MerefFUEskywmXVJmYTOzmNFSRVWUevx/assets/images/optimized/rev-e547fa9/glocalview.com/wp-content/uploads/2022/07/slider1.webp"
+src="https://cdn-jdbdl.nitrocdn.com/MerefFUEskywmXVJmYTOzmNFSRVWUevx/assets/images/optimized/rev-e547fa9/glocalview.com/wp-content/uploads/2022/07/Banner-1.jpg" -->

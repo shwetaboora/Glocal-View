@@ -1,0 +1,44 @@
+footer{
+    background-color: black;
+    padding: 40px 0 40px 0;
+    color: white;
+}
+
+.logo{
+    padding-bottom: 30px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.Services:hover{
+    color:#f87400;
+}
+.Services{
+    transition: color 0.5s linear;
+}
+
+svg{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.icons li{
+    margin: 10px;
+}
+
+.icons li:hover{
+    transform: scale(1.3);
+}
+
+.icons{
+    justify-content: flex-start;
+    display: flex;
+}

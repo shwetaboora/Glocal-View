@@ -1,0 +1,27 @@
+.values h2 {
+    margin-top: 35px;
+    left: 55%;
+    text-align: center;
+    padding: 10px;
+    line-height: 1.4;
+    display: block;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.row {
+    margin: 40px 100px;
+}
+
+h3 {
+    font-family: Roboto;
+    text-transform: none;
+    font-weight: 500;
+    font-size: large;
+}
+
+p {
+    line-height: 1.5;
+    margin: 0 0 20px;
+    font-weight: 400 !important;
+}

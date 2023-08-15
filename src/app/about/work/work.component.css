@@ -1,0 +1,24 @@
+section{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+h2{
+    margin-top: 17%;
+    margin-bottom: 1.5%;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    color: black;
+    justify-content: center;
+    text-align: center;
+}
+
+p{
+    margin-bottom: 4%;
+    font-family: 'Roboto',sans-serif;
+    color: rgb(41, 39, 39);
+    text-align: left;
+    justify-content: left;
+    font-size: 19px;
+    
+}

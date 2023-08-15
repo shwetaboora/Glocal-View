@@ -1,0 +1,66 @@
+.choose h2{
+    margin-top: 35px;
+    left: 55%;
+    text-align: center;
+    padding: 10px;
+    line-height: 1.4;
+    display: block;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.row{
+    margin: 40px 100px;
+}
+
+.client-oriented h3{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Montserrat", Sans-serif;
+}
+
+.client-oriented p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Montserrat", Sans-serif;
+    line-height: 1.5em;
+}
+
+.Proactive-Approach h3{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Montserrat", Sans-serif;
+}
+
+.Proactive-Approach p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Montserrat", Sans-serif;
+    line-height: 1.5em;
+}
+
+.Quality-assurance h3{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Montserrat", Sans-serif;
+}
+
+.Quality-assurance p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Montserrat", Sans-serif;
+    line-height: 1.5em;
+}
+
+.Technical-Expertise h3{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Montserrat", Sans-serif;
+}
+
+.Technical-Expertise p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Montserrat", Sans-serif;
+    line-height: 1.5em;
+}

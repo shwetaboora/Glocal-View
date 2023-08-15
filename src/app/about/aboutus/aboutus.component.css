@@ -1,0 +1,83 @@
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+#section1 h1{
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'Montserrat',sans-serif;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.pic {
+    justify-content: center;
+    text-align: center;
+}
+
+#about{
+    margin-left: 10%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    line-height: 1.75;
+    font-family: 'Montserrat',sans-serif;
+}
+
+#about img{
+    border-radius: 20px;
+    box-shadow:10px 10px 15px rgba(0,0,0,.3);
+    margin-right: 10%;
+    margin-left: 35px;
+    margin-bottom: 10%;
+    display: flex;
+}
+
+#who-we-are{
+    justify-content: right;
+    text-align:justify;
+    line-height: 1.5;
+    font-family: 'Montserrat',sans-serif; 
+    margin-right: 10%;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+#who-we-are img{
+    border-radius: 20px;
+    box-shadow:10px 10px 15px rgba(0,0,0,.3);
+    margin-left: 10%;
+    margin-right: 30px;
+    display: flex;
+   
+}
+
+#what-we-do{
+    margin-left: 10%;
+    margin-bottom: 5%;
+    font-size: 20px;        
+    line-height: 1.75;
+    font-family: 'Montserrat',sans-serif;
+    
+}
+
+#what-we-do img{
+    border-radius: 20px;
+    box-shadow:10px 10px 15px rgba(0,0,0,.3);
+    margin-right: 10%;
+    margin-left: 35px;
+    margin-bottom: 10%;
+    display: flex;
+   
+    
+}
+
+
+
